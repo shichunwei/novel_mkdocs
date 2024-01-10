@@ -1,0 +1,12 @@
+version: 2
+
+# 项目名称
+project: novel_mkdocs
+
+# 文档的构建配置
+build:
+  image: latest
+
+# 配置要构建的文档
+sphinx:
+  configuration: site
