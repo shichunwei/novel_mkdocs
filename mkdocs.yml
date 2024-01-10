@@ -1,0 +1,29 @@
+site_name: 灵动@ShiChunwei
+
+nav: 
+  - Home: index.md
+  - 01-不姓火的少年: 01-不姓火的少年.md
+  - 02-黑色灵体: 02-黑色灵体.md
+  - 03-赤金水灵镯: 03-赤金水灵镯.md
+  - 04-水寒伊: 04-水寒伊.md
+  - 05-瑞彩国: 05-瑞彩国.md
+  - 06-拍卖会开始！: 06-拍卖会开始！.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+    - python
+
+  locale: zh_CN
+
+  markdown_extentions:
+    - admonition
+
+  plugins:
+    - search
+
+  extra_css:
+    - resources/css/extra.css
